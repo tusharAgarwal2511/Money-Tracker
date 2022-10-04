@@ -1,0 +1,1 @@
+A simple mern stack Money Tracker project.

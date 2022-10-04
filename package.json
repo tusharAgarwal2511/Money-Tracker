@@ -1,0 +1,27 @@
+{
+  "name": "money-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "16.17.1",
+    "npm": "8.17.0"
+  },
+  "scripts": {
+    "client": "npm install --prefix client",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20"
+  }
+}

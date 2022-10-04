@@ -1,0 +1,44 @@
+.filter {
+    box-shadow: 0 0 3px grey;
+    padding: 15px 20px;
+    border-radius: 10px;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+}
+
+@media only screen and (max-width: 800px) {
+    .filter {
+        overflow-x: scroll !important;
+    }
+}
+
+.transaction-form label {
+    color: rgba(0, 0, 0, 0.793) !important;
+}
+
+.view-switch {
+    border: 1px solid rgba(0, 0, 0, 0.559);
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.anticon svg {
+    font-size: 20px;
+}
+
+.active-icon {
+    color: black;
+    cursor: pointer;
+}
+
+.inactive-icon {
+    color: grey;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .ant-table {
+        overflow-x: scroll !important;
+    }
+}

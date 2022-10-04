@@ -1,0 +1,56 @@
+/* Rgeister */
+.register {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #3040d0 0%, #1c023c 100%);
+    overflow: auto;
+}
+
+/* 
+@media only screen and (max-width: 769px) {
+    .register {
+        overflow: auto;
+    }
+} */
+
+/* Login */
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #3040d0 0%, #1c023c 100%);
+    overflow: auto;
+}
+
+
+
+.lottie {
+    height: 400px;
+}
+
+input {
+    /* background-color: transparent !important; */
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    /* color: white; */
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+label,
+a {
+    color: #ffffffaf !important;
+}
+
+h1 {
+    font-size: 25px;
+    color: #ffffffaf;
+}

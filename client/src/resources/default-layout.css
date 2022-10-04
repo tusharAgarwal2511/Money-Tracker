@@ -1,0 +1,56 @@
+.layout {
+    margin: 0 100px;
+    /* overflow: auto; */
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    /* border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px; */
+}
+
+.logo {
+    font-size: 30px;
+    color: #161c51;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .logo {
+        font-size: 21px !important;
+    }
+}
+
+.username {
+    font-size: 18px;
+    color: #ffffffaf;
+}
+
+.content {
+    height: 85vh;
+    box-shadow: 0 0 3px grey;
+    margin-top: 20px;
+    /* border-top-left-radius: 25px; */
+    border-radius: 25px;
+    padding: 15px;
+    overflow-y: auto !important;
+    overflow-x: auto !important;
+}
+
+@media only screen and (max-width:800px) {
+    .layout {
+        margin: 0 15px;
+    }
+}
+
+.spinner {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
